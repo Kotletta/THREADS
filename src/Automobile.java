@@ -3,7 +3,7 @@ public class Automobile extends Thread {
     private int valueAuto;
 
     Automobile() {
-        this.nameAuto = "Car with a license plate";
+        this.nameAuto = "Номер авто";
         this.valueAuto = +1000 + (int) (Math.random() * 7000);
     }
 
